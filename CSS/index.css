@@ -1,0 +1,95 @@
+header {
+    font-family: "Red Hat Mono";
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #343434;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-top: 6%;
+}
+h1 {
+    font-family: "Red Hat Mono";
+    font-size: 70px;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #343434;
+    text-align: center;
+    margin: 0%;
+    margin-top: -5%;
+}
+
+.container {
+    width: 623px;
+    height: 57px;
+    background-color: #EE7979;
+    margin-left: 25%;
+}
+
+ p1 {
+    font-family: "Red Hat Mono";
+    font-size: 26px;
+    font-weight: 400;
+    width: auto;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 0%;
+    padding: 0%;
+    color: #343434;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    border: none;
+    height: 2px;
+    background: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "Red Hat Mono";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.container2 {
+    width: 223px;
+    height: 23px;
+    background-color: #EE7979;
+    margin-left: 41.15%;
+    margin-top: 5%;
+    margin-bottom: -4%;
+}
+
+.placeholder {
+    background: #D9D9D9;
+    width: 880px;
+    height: 587px;
+    display: flex;
+    justify-content: center;
+}
