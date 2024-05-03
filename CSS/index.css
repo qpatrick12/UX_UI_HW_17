@@ -9,9 +9,9 @@ header {
     justify-content: space-between;
 }
 
-.flex-container {
+#HeroSection {
     display: flex;
-    justify-content: center;
+    justify-items: center;
     flex-direction: column;
     height: auto;
     width: auto;
@@ -28,7 +28,7 @@ h1 {
     margin-top: -5%;
 }
 
-.container {
+#TextBackground {
     width: 623px;
     height: 57px;
     background-color: #EE7979;
@@ -63,12 +63,6 @@ body {
 }
 
 
-.flex-container2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 h2 {
     font-family: "Red Hat Mono";
     font-size: 30px;
@@ -77,19 +71,55 @@ h2 {
     margin-bottom: 4%;
 }
 
-.container2 {
+#PageContent {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+#TextBackground2 {
     width: 223px;
     height: 23px;
     background-color: #EE7979;
-    margin-left: 41.15%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5%;
     margin-bottom: -4%;
 }
 
-.placeholder {
+#placeholder {
     background: #D9D9D9;
     width: 880px;
     height: 587px;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CaseDescription {
+    font-family: "Red Hat Mono";
+    font-size: 26px;
+    font-weight: 400;
+    color: #343434;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+}
+
+button {
+    font-family: "Red Hat Mono";
+    font-size: 26px;
+    width: 144px;
+    height: 45px;
+    border: none;
+    margin: 0% auto 5% auto;
+}
+
+footer {
+    background-color: #D9D9D9;
+}
+
+.media-links {
+    display: inline-block;
+    margin-left: 40%;
+    height: 10px;
+    width: 10px;
 }
