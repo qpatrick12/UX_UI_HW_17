@@ -1,5 +1,6 @@
 header {
     font-family: "Red Hat Mono";
+    padding: 0% 2%;
     font-size: 20px;
     font-weight: 400;
     word-wrap: break-word;
@@ -15,7 +16,7 @@ header {
     flex-direction: column;
     height: auto;
     width: auto;
-    margin-top: 6%;
+    margin-top: 13%;
 }
 h1 {
     font-family: "Red Hat Mono";
@@ -33,6 +34,9 @@ h1 {
     height: 57px;
     background-color: #EE7979;
     margin-left: 25%;
+    position: relative;
+    top: -95px;
+    z-index: -1;
 }
 
  p1 {
@@ -40,10 +44,7 @@ h1 {
     font-size: 26px;
     font-weight: 400;
     width: auto;
-    margin-top: 2%;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-bottom: 0%;
+    margin: 0% 1%;
     padding: 0%;
     color: #343434;
     text-align: center;
@@ -101,20 +102,64 @@ h2 {
     font-weight: 400;
     color: #343434;
     text-align: center;
-    padding: 5% 10% 5% 10%;
+    padding: 3% 10% 2% 10%;
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+    margin: 0% 44% 4%;
+    text-align: center;
+}
+
+.see-more-button {
+    background-color: transparent;
+    color: rgb(54, 54, 54);
+    border: none;
+    padding: 0px;
+    font-size: 26px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s ease 0s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 0;
+    height: 63%;
+    background-color: #EE7979;
+    z-index: -1;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.button-container:hover .overlay {
+    width: 100%;
+    left: 0;
 }
 
 button {
     font-family: "Red Hat Mono";
     font-size: 26px;
-    width: 144px;
-    height: 45px;
-    border: none;
-    margin: 0% auto 5% auto;
+    width: 125px;
+    height: 35px;
 }
 
 footer {
     background-color: #D9D9D9;
+    margin: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: none;
+}
+
+li {
+    display: inline-block;
+    font-family: "Red Hat Mono";
 }
 
 .media-links {
